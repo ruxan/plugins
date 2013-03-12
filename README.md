@@ -1,0 +1,4 @@
+plugins
+=======
+
+Wordpress plugins
