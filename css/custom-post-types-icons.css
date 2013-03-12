@@ -1,0 +1,128 @@
+/* !
+ * Custom Post Types Icons
+ * Copyright 2012, FPI Development Team
+*/
+
+/* news */
+#menu-posts .wp-menu-image {
+    background: transparent url('../images/NewsSmall2.png') no-repeat 6px 6px !important;
+}
+
+#menu-posts.wp-has-current-submenu .wp-menu-image {
+    background: transparent url('../images/NewsSmall2Inv.png') no-repeat 6px !important;
+}
+
+.icon32-posts-post {
+    background: transparent url('../images/News2.png') no-repeat !important;
+}
+
+.manage-column.column-author {
+    width: 6%;
+}
+
+.manage-column.column-date {
+    width: 10%;
+}
+
+.manage-column.column-tags {
+    width: 8%;
+}
+
+.manage-column.column-news_showOnHome {
+    width: 8%;
+}
+
+.manage-column.column-news_priority {
+    width: 6%;
+}
+
+.manage-column.column-comments {
+    width: 4%;
+}
+
+/* story */
+#menu-posts-story .wp-menu-image {
+    background: transparent url('../images/StoriesSmall.png') no-repeat 6px 6px !important;
+}
+
+#menu-posts-story.wp-has-current-submenu .wp-menu-image {
+    background: transparent url('../images/StoriesSmallInv.png') no-repeat 6px !important;
+}
+
+.icon32-posts-story {
+    background: transparent url('../images/Stories.png') no-repeat !important;
+}
+
+/* advertisement */
+#menu-posts-advertisement .wp-menu-image {
+    background: transparent url('../images/AdvertisingSmall.png') no-repeat 6px 6px !important;
+}
+
+#menu-posts-advertisement.wp-has-current-submenu .wp-menu-image {
+    background: transparent url('../images/AdvertisingSmallInv.png') no-repeat 6px !important;
+}
+
+.icon32-posts-advertisement {
+    background: transparent url('../images/Advertising.png') no-repeat !important;
+}
+
+/* breaking news */
+#menu-posts-breaking_news .wp-menu-image {
+    background: transparent url('../images/BreakingNewsSmall.png') no-repeat 6px 6px !important;
+}
+
+#menu-posts-breaking_news.wp-has-current-submenu .wp-menu-image {
+    background: transparent url('../images/BreakingNewsSmallInv.png') no-repeat 6px !important;
+}
+
+.icon32-posts-breaking_news {
+    background: transparent url('../images/BreakingNews.png') no-repeat !important;
+}
+
+/* hide the html editor */
+#content-html {
+    /*display: none;*/
+}
+
+/* hide screen options */
+#screen-meta-links   {
+   display:none;
+}
+
+/* album cover preview */
+.album-preview {
+   padding-top:5px;
+}
+
+/* embed video */
+.video-embed {
+    padding-top:5px;
+}
+
+/* alternative images */
+.other-image {
+    padding: 0 5px 0 5px;
+}
+
+/* format category listing */
+option.parent {
+     font-style:italic;
+}
+
+option.child {
+    padding: 0 20px 0 0 !important;
+}
+
+/* remove links for cpt */
+a.remove_pdf {
+    padding:0 5px 0 5px;
+}
+
+a.remove_other_media_file {
+    padding:0 5px 0 5px;
+}
+
+/* make the subtitle's width consistent with the main title */
+textarea, input[type="text"] {
+     /*width: 100%; */
+}
